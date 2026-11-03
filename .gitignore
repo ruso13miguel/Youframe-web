@@ -1,0 +1,18 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules/
+
+# Claves: nunca subir
+.env
+.env.*
+
+# Editores
+.vscode/
+.idea/
+
+# Carpeta generada por npm run build
+dist/

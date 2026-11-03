@@ -1,0 +1,13 @@
+{
+  "name": "youframe-web",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Página web de YouFrame — cuadros, restauración de fotos y espejos personalizados en Medellín",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "npx --yes serve@14.2.4 site -l 3000",
+    "check": "node scripts/check.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}
