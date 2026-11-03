@@ -1,5 +1,13 @@
 # Cómo se publica — YouFrame
 
+## GitHub Pages (automático, para ver y compartir)
+
+Cada cambio guardado en `main` se publica solo en **https://ruso13miguel.github.io/Youframe-web/** (archivo `.github/workflows/pages.yml`). En la pestaña **Actions** ves "Publicar en GitHub Pages": ✓ verde = ya está en vivo.
+
+Si algún día sale en rojo diciendo que Pages no está activado: **Settings → Pages → Source: GitHub Actions**.
+
+## Hosting propio (Hostinger)
+
 Lo que hay en la carpeta `site/` es la página completa. Para publicarla se sube a la carpeta pública del hosting (normalmente `public_html`).
 
 ## 1. Preparar los archivos

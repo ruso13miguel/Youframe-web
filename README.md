@@ -8,7 +8,8 @@ Es una sola página hecha con HTML, CSS y JavaScript. El inicio es un espejo que
 |---|---|
 | WhatsApp de pedidos | `573016148523` (en `site/js/content.js`) |
 | Instagram | https://www.instagram.com/youframe.10/ |
-| Hosting | Hosting propio de Miguel (pendiente de conectar) |
+| Ver la página | https://ruso13miguel.github.io/Youframe-web/ (GitHub Pages, se actualiza sola) |
+| Hosting | Hostinger (pendiente de conectar) |
 | Dominio | Pendiente |
 
 ## Carpetas
@@ -32,7 +33,9 @@ youframe-web/
 ├── scripts/
 │   ├── check.mjs              revisa que no falten archivos ni haya errores
 │   └── build.mjs              prepara dist/ para subir al hosting
-├── .github/workflows/check.yml   revisión automática en cada cambio
+├── .github/workflows/
+│   ├── check.yml          revisión automática en cada cambio
+│   └── pages.yml          publica en GitHub Pages al guardar en main
 └── package.json               comandos: dev, check, build
 ```
 
@@ -52,8 +55,7 @@ npm run build    # crea dist/ lista para subir al hosting
 
 1. Haz el cambio (en GitHub directamente o en tu computador).
 2. Guárdalo en la rama `main`.
-3. GitHub revisa solo que todo esté bien (pestaña **Actions**).
-4. Publica en el hosting (ver `docs/PUBLICAR.md`).
+3. En 1–2 minutos GitHub la publica sola en https://ruso13miguel.github.io/Youframe-web/ (pestaña **Actions**: ✓ verde = publicada).
 
 ## Pendientes antes de lanzar
 
